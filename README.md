@@ -10,7 +10,8 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
 - ✔️ **Arithmetic Operations**: *(get to Learn how arithmetic works with different data types, methods in Java)*  
   - Addition of Two Numbers, Subtraction, Multiplication, Division programs
       - using different data types: `int`, `long`, `float`, `double`, `short`
-      - Programs using a method `with Return Type` and `without Return Type`  
+      - Programs using methods: ➤ 1.  With Return Type and With Parameters ➤ 2. With Return Type and Without Parameters ➤ 3. Without Return Type and With Parameters ➤ 4. Without Return Type and Without Parameters
+
   - Each example includes:
     - Variable declaration  
     - Initialization  
