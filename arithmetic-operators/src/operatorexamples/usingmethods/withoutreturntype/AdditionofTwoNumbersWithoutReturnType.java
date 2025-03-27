@@ -1,6 +1,6 @@
 package operatorexamples.usingmethods.withoutreturntype;
 
-public class AdditionofTwoNumbersWithMethods {
+public class AdditionofTwoNumbersWithoutReturnType {
 
     // Method to add two integers and print the result
     public void addInt() {
@@ -39,7 +39,7 @@ public class AdditionofTwoNumbersWithMethods {
     }
 
     public static void main(String[] args) {
-        AdditionofTwoNumbersWithMethods addObj = new AdditionofTwoNumbersWithMethods();
+        AdditionofTwoNumbersWithoutReturnType addObj = new AdditionofTwoNumbersWithoutReturnType();
 
         // Call methods to perform and display addition results for each type
         addObj.addInt();
