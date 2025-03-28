@@ -5,6 +5,7 @@ import com.vbc.schemeform.model.Person;
 
 import java.util.Scanner;
 
+// CommercialSchemeFormDemoApp class to capture and display Person and Address details via console
 public class CommercialSchemeFormDemoApp {
 
     public static void main(String[] args) {

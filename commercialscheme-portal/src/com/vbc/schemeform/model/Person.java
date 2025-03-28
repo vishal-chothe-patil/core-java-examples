@@ -1,5 +1,6 @@
 package com.vbc.schemeform.model;
 
+// Person model class with basic fields
 public class Person {
     public String firstName;
     public String lastName;
