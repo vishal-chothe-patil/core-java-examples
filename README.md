@@ -27,12 +27,19 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
     - `<`, `>`, `<=`, `>=`, `==`, `!=`,  
   - Programs to evaluate conditions and return Boolean values
   - for control structures like `if`, `if-else ladder`, and `nested if.`
-- **Less Than (<)**  
+- **Less Than (`<`)**  
    - *Age Restriction* : Check if a user is too young to access specific content.  
    - *Stock Monitoring* : Alert if inventory falls below a minimum threshold.  
    - *Grading* : Determine if a score is below a passing grade.  
    - *Deadline Check* : Verify if a project completion date is before the due date.  
-   - *Speed Violation* : Detect if a vehicle's speed is below the minimum limit for a highway.  
+   - *Speed Violation* : Detect if a vehicle's speed is below the minimum limit for a highway.
+     
+- **Greater Than (`>`)**
+  - *Performance Monitoring*: Trigger an alert if CPU usage exceeds 80%  
+  - *Bank Balance Validation*: Check if a withdrawal amount exceeds the current balance  
+  - *Attendance Check*: Ensure participants in an event exceed a required number  
+  - *Scoring System*: Verify if a candidate's score surpasses a benchmark  
+  - *Temperature Control*: Activate cooling if room temperature exceeds a set point 
 
 ✔️ **String Concatenation Operators** 🧵➕
 
