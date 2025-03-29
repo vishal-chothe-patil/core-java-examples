@@ -1,4 +1,4 @@
-package com.vbc.operators.lessthen;
+package com.vbc.operators.lessthan;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
