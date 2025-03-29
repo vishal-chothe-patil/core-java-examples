@@ -1,4 +1,4 @@
-package com.vbc.operators;
+package com.vbc.operators.lessthen;
 
 import java.util.Scanner;
 
