@@ -24,9 +24,15 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
 ✔️ **Relational Operators** 🔎
 
 - Comparison between variables using:  
-  - `==`, `!=`, `<`, `>`, `<=`, `>=`  
-- Programs to evaluate conditions and return Boolean values  
-- Great for getting ready for control structures like `if`, `while`, `for`
+    - `<`, `>`, `<=`, `>=`, `==`, `!=`,  
+  - Programs to evaluate conditions and return Boolean values
+  - for control structures like `if`, `if-else ladder`, and `nested if.`
+- **Less Than (<)**  
+   - *Age Restriction* : Check if a user is too young to access specific content.  
+   - *Stock Monitoring* : Alert if inventory falls below a minimum threshold.  
+   - *Grading* : Determine if a score is below a passing grade.  
+   - *Deadline Check* : Verify if a project completion date is before the due date.  
+   - *Speed Violation* : Detect if a vehicle's speed is below the minimum limit for a highway.  
 
 ✔️ **String Concatenation Operators** 🧵➕
 
