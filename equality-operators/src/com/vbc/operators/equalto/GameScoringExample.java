@@ -17,7 +17,5 @@ public class GameScoringExample {
         } else {
             System.out.println("Keep trying! Not the winning score.");
         }
-
-        scanner.close();
     }
 }
