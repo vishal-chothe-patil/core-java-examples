@@ -28,11 +28,11 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   - Programs to evaluate conditions and return Boolean values
   - for control structures like `if`, `if-else ladder`, and `nested if.`
 - **Less Than (`<`)**  
-   - *Age Restriction* : Check if a user is too young to access specific content.  
-   - *Stock Monitoring* : Alert if inventory falls below a minimum threshold.  
-   - *Grading* : Determine if a score is below a passing grade.  
-   - *Deadline Check* : Verify if a project completion date is before the due date.  
-   - *Speed Violation* : Detect if a vehicle's speed is below the minimum limit for a highway.
+   - *Age Restriction*: Check if a user is too young to access specific content.  
+   - *Stock Monitoring*: Alert if inventory falls below a minimum threshold.  
+   - *Grading*: Determine if a score is below a passing grade.  
+   - *Deadline Check*: Verify if a project completion date is before the due date.  
+   - *Speed Violation*: Detect if a vehicle's speed is below the minimum limit for a highway.
      
 - **Greater Than (`>`)**
   - *Performance Monitoring*: Trigger an alert if CPU usage exceeds 80%  
@@ -46,8 +46,16 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   - *Loan Eligibility*: Approve loans if the applicant's age is less than or equal to 60  
   - *Queue Management*: Accept requests only if queue length is within limits  
   - *Task Scheduling*: Assign tasks with deadlines on or before the current date  
-  - *Grade Assignment*: Assign "Pass" if a student's score is 40 or less  
+  - *Grade Assignment*: Assign "Pass" if a student's score is 40 or less
 
+- **Greater Than or Equal To (`>=`)**
+  - *Eligibility Criteria*: Verify if a student qualifies for a scholarship based on marks  
+  - *Stock Replenishment*: Trigger restocking if inventory is above reorder level  
+  - *Promotion Check*: Promote employees with tenure greater than or equal to five years  
+  - *Exam Cutoff*: Check if a candidate's score meets or exceeds the cutoff for selection  
+  - *Fitness Tracking*: Record activity if steps walked exceed or equal a daily goal  
+
+  
 ✔️ **String Concatenation Operators** 🧵➕
 
 - Combine and manipulate strings using:
