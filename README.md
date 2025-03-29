@@ -24,7 +24,7 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
 ✔️ **Relational Operators** 🔎
 
 - Comparison between variables using:  
-    - `<`, `>`, `<=`, `>=`, `==`, `!=`,  
+    -  `<` , `>` , `<=` , `>=`  
   - Programs to evaluate conditions and return Boolean values
   - for control structures like `if`, `if-else ladder`, and `nested if.`
 - **Less Than (`<`)**  
@@ -53,9 +53,19 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   - *Stock Replenishment*: Trigger restocking if inventory is above reorder level  
   - *Promotion Check*: Promote employees with tenure greater than or equal to five years  
   - *Exam Cutoff*: Check if a candidate's score meets or exceeds the cutoff for selection  
-  - *Fitness Tracking*: Record activity if steps walked exceed or equal a daily goal  
+  - *Fitness Tracking*: Record activity if steps walked exceed or equal a daily goal
 
-  
+
+✔️  **Equality Operators (`==`, `!=`) Use Cases**  
+
+- **Equal To (`==`)**  
+  - *Authentication*: Validate if entered username matches stored username.  
+  -  *Feature Toggle*: Enable features if a specific setting matches "true".  
+  - *Game Scoring*: Check if a player's score matches a winning target.  
+  - *Status Check*: Determine if a system is in the "ready" state.  
+  - *Configuration Validation*: Verify if the loaded configuration matches the expected setup.  
+
+    
 ✔️ **String Concatenation Operators** 🧵➕
 
 - Combine and manipulate strings using:
