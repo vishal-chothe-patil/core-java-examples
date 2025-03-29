@@ -39,7 +39,14 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   - *Bank Balance Validation*: Check if a withdrawal amount exceeds the current balance  
   - *Attendance Check*: Ensure participants in an event exceed a required number  
   - *Scoring System*: Verify if a candidate's score surpasses a benchmark  
-  - *Temperature Control*: Activate cooling if room temperature exceeds a set point 
+  - *Temperature Control*: Activate cooling if room temperature exceeds a set point
+    
+- **Less Than or Equal To (`<=`)**
+  - *Discount Eligibility*: Offer discounts if total purchase amount is within a specific range  
+  - *Loan Eligibility*: Approve loans if the applicant's age is less than or equal to 60  
+  - *Queue Management*: Accept requests only if queue length is within limits  
+  - *Task Scheduling*: Assign tasks with deadlines on or before the current date  
+  - *Grade Assignment*: Assign "Pass" if a student's score is 40 or less  
 
 ✔️ **String Concatenation Operators** 🧵➕
 
