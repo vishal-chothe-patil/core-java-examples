@@ -63,16 +63,23 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   -  *Feature Toggle*: Enable features if a specific setting matches "true".  
   - *Game Scoring*: Check if a player's score matches a winning target.  
   - *Status Check*: Determine if a system is in the "ready" state.  
-  - *Configuration Validation*: Verify if the loaded configuration matches the expected setup.  
-
+  - *Configuration Validation*: Verify if the loaded configuration matches the expected setup.
     
+- **Not Equal To (`!=`)**  
+  -  *Error Detection*: Trigger an alert if `fileFormat != supportedFormat`  
+  -  *User Privilege*: Restrict access if `userRole != "admin"`  
+  -  *Data Synchronization*: Detect mismatches if `datasetA != datasetB`  
+  -  *Device Status*: Notify if `deviceStatus != "online"`  
+  -  *Process Validation*: Skip processes if `inputValue != defaultValue`  
+ 
 ✔️ **String Concatenation Operators** 🧵➕
 
 - Combine and manipulate strings using:
   - `+` operator to join strings  
   - `+=` for appending  
   - Mixing strings with numbers and variables
-    
+
+
 ✔️ **Commercial Scheme System Project**: *(commercialscheme-portal)*  
   - A basic Java console application to capture and display details, with Custom `Person` and `Address` classes with fields
 
