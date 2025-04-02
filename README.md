@@ -11,7 +11,7 @@ A comprehensive Core Java project showcasing fundamental concepts such as basic 
   - Addition of Two Numbers, Subtraction, Multiplication, Division programs
     - Using different data types: `int`, `long`, `float`, `double`, `short`
   - Programs using methods: ✦ `With Return Type & With Parameters` ✦ `With Return Type & Without Parameters` ✦ `Without Return Type & With Parameters` ✦ `Without Return Type & Without Parameters`
-
+  - Module Operator and Ternary Operator with few examples (like EvenOdd, MaxTwoNumber, VotingEligibility, Leap year, NumberCheck).
   - Each example includes: Variable declaration, Initialization, Arithmetic logic, Output statement displaying the result.
 
  ✔️ **Increment/Decrement Operators** 🔁
