@@ -1,4 +1,4 @@
-package operatorexamples.addition.usingdatatype;
+package operatorexamples.arithmetics.addition.usingdatatype;
 
 public class AdditionofTwoNumber_withlong {
 

@@ -1,4 +1,4 @@
-package operatorexamples.multiplication.usingdatatype;
+package operatorexamples.arithmetics.multiplication.usingdatatype;
 
 public class MultiplicationofTwoNumber_withlong {
 

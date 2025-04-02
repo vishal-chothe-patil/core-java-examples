@@ -1,4 +1,4 @@
-package operatorexamples.subtraction.usingdatatype;
+package operatorexamples.arithmetics.subtraction.usingdatatype;
 
 public class SubtractionofTwoNumber_withfloat {
 

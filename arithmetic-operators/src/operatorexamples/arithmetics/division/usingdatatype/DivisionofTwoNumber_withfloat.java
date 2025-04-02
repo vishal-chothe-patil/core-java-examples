@@ -1,4 +1,4 @@
-package operatorexamples.division.usingdatatype;
+package operatorexamples.arithmetics.division.usingdatatype;
 
 public class DivisionofTwoNumber_withfloat {
 
