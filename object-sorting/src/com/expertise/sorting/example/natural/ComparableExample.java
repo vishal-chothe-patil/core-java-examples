@@ -1,4 +1,4 @@
-package com.expertise.sorting.example;
+package com.expertise.sorting.example.natural;
 
 import java.util.ArrayList;
 import java.util.Collections;
