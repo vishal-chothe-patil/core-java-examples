@@ -4,7 +4,7 @@ out/
 !**/src/test/**/out/
 .idea
 java-keywords.iml
-
+user.ser
 
 ### Eclipse ###
 .apt_generated
