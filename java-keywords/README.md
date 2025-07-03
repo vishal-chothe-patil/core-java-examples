@@ -3,6 +3,8 @@
 This project demonstrates the usage of core Java keywords with clear coding examples. These keywords are the building blocks of Java programming and are used to control object behavior, memory usage, concurrency, and inheritance.
   - **Transient keyword**
   - **Volatile keyword**
+  - **Synchronized keyword**
+
 ---
 
 ## 🔸 1. `transient` Keyword
@@ -56,3 +58,23 @@ To prevent **thread-local caching** in multi-threaded environments. Without `vol
       private volatile boolean running = true;
     }
   ```
+---
+## 🔸 5. `synchronized` Keyword
+
+### ✅ What is `synchronized-keyword` ?
+`synchronized` provides **mutual exclusion**, allowing only **one thread at a time** to access a method or a block of code.
+
+### 🛠️ Why we use `synchronized`?
+To prevent **race conditions** when multiple threads access and modify shared resources simultaneously.
+
+### 📦 Where to apply?
+- Banking applications (e.g., updating account balances)
+- Shared in-memory caches
+- Messaging queues and thread-safe data structures
+
+### 💡 Example of `synchronized` Keyword
+```java
+public synchronized void increment() {
+    count++;
+}
+```
