@@ -2,6 +2,7 @@
 
 This project demonstrates the usage of core Java keywords with clear coding examples. These keywords are the building blocks of Java programming and are used to control object behavior, memory usage, concurrency, and inheritance.
   - **Static Keyword**
+  - **Final Keyword**
   - **Transient keyword**
   - **Volatile keyword**
   - **Synchronized keyword**
@@ -65,7 +66,63 @@ This means:
   ```
 ---
 
-## 🔸 2. `transient` Keyword
+## 🔸 2. `final` Keyword
+
+### What is `final`?
+The `final` keyword in Java is used to:
+- Declare **constants**
+- Prevent **method overriding**
+- Prevent **class inheritance**
+- Prevent **reassignment** of variables or method parameters
+
+---
+
+### Why we use `final`?
+
+- To make variables **constant and unchangeable**
+- To protect methods from being **overridden** in subclasses
+- To prevent important utility or config classes from being **extended**
+- To make method parameters **immutable**, ensuring thread-safety and predictable behavior
+
+---
+
+### Where to apply?
+
+- Constants and configuration values  
+  *(e.g., `final int MAX_USERS = 100;`)*
+- Core or security logic methods that should not be overridden  
+  *(e.g., authentication, audit logs)*
+- Helper or utility classes  
+  *(e.g., `final class StringUtils`)*
+- Lambda parameters or thread-safe variables
+
+---
+
+### Example of Final Keyword
+
+  ```java
+  // Final variable - cannot be reassigned
+  final int MAX_USERS = 100;
+  
+  // Final method - cannot be overridden
+  public final void logInfo() {
+      System.out.println("Logging securely...");
+  }
+  
+  // Final class - cannot be extended
+  final class Constants {
+      public static final String APP_NAME = "KeywordApp";
+  }
+  
+  // Final method parameter - cannot be modified inside the method
+  public void printDetails(final String name) {
+      System.out.println("User: " + name);
+      // name = "Another"; // ❌ Error: cannot modify final parameter
+  }
+  ```
+---
+
+## 🔸 3. `transient` Keyword
 
 ### What is `transient-keyword`?
 `transient` is used to prevent a variable from being serialized when an object is saved to a file or sent over a network.
@@ -93,7 +150,7 @@ In Java applications involving:
   ```
 ---
 
-### 🔸 3. `volatile` Keyword
+### 🔸 4. `volatile` Keyword
 
 #### What is `volatile-keyword`?
 The `volatile` keyword ensures that changes made to a variable by one thread are **immediately visible** to all other threads. It tells the JVM **not to cache the value** and always read it from main memory.
@@ -122,7 +179,7 @@ To prevent **thread-local caching** in multi-threaded environments. Without `vol
     }
   ```
 ---
-## 🔸 4. `synchronized` Keyword
+## 🔸 5. `synchronized` Keyword
 
 ### What is `synchronized-keyword` ?
 `synchronized` provides **mutual exclusion**, allowing only **one thread at a time** to access a method or a block of code.
