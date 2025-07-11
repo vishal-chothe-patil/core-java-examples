@@ -3,6 +3,8 @@
 This project contains implementations and explanations of **commonly used design patterns** in Java. These patterns are crucial for building **robust**, **scalable**, and **maintainable** applications, especially in real-world domains like **FinTech, banking, and microservices**.
 
   -   Builder Pattern
+  -   Singleton Pattern  
+
 
 
 ## What Are Design Patterns? 
@@ -74,6 +76,80 @@ The **Builder Pattern** is used to construct a complex object step-by-step. It s
       }
   }
   ```
+---
+
+## 🔹 2. Singleton Pattern
+
+### What is the Singleton Pattern?
+
+The **Singleton Pattern** ensures that a class has **only one instance** throughout the application's lifecycle and provides a **global access point** to it. It is especially useful for managing **shared resources** like database connections, file handlers, or configuration managers.
+
+---
+
+### Why Use Singleton?
+
+- Ensures a **single instance** of a class is created
+- Saves memory and improves performance
+- Provides **global, consistent access** to shared components
+- Prevents issues caused by multiple instances (e.g., conflicting DB connections)
+
+---
+
+### Where It's Used in FinTech?
+
+- **Database connection manager** (MySQL, MongoDB, etc.)
+- **File logger** for auditing/reporting
+- **Configuration loader** for secure credentials and environment variables
+
+---
+
+## Example 1: Singleton – Database Connection
+
+  ```java
+  public class DatabaseConnection {
+  
+      // Static instance (shared)
+      private static DatabaseConnection instance;
+  
+      // Private constructor to prevent external instantiation
+      private DatabaseConnection() {
+          System.out.println("Connected to FinTech DB");
+      }
+  
+      // Thread-safe global access method
+      public static synchronized DatabaseConnection getInstance() {
+          if (instance == null) {
+              instance = new DatabaseConnection(); // Created only once
+          }
+          return instance;
+      }
+  
+      public void query(String sql) {
+          System.out.println("Executing SQL: " + sql);
+      }
+  }
+  ```
+### ▶️ Usage:
+  ```java
+  public class Main {
+      public static void main(String[] args) {
+          DatabaseConnection db1 = DatabaseConnection.getInstance();
+          db1.query("SELECT * FROM loan_applications");
+  
+          DatabaseConnection db2 = DatabaseConnection.getInstance();
+          db2.query("SELECT * FROM emi_payments");
+  
+          System.out.println("Same DB instance? " + (db1 == db2));  // true
+      }
+  }
+  ```
+---
+
+## Example 2: Singleton – File Logger (in project)
+
+Conclusion: Singleton ensures a consistent, memory-efficient way to manage shared resources—making it ideal for core FinTech services like DB handling, logging, and configuration.
+
+---
 
 
 
