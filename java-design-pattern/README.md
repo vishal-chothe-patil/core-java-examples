@@ -3,8 +3,8 @@
 This project contains implementations and explanations of **commonly used design patterns** in Java. These patterns are crucial for building **robust**, **scalable**, and **maintainable** applications, especially in real-world domains like **FinTech, banking, and microservices**.
 
   -   Builder Pattern
-  -   Singleton Pattern  
-
+  -   Singleton Pattern
+  -   Factory Pattern  
 
 
 ## What Are Design Patterns? 
@@ -145,11 +145,32 @@ The **Singleton Pattern** ensures that a class has **only one instance** through
   ```
 ---
 
-## Example 2: Singleton – File Logger (in project)
+### Example 2: Singleton – File Logger
 
 Conclusion: Singleton ensures a consistent, memory-efficient way to manage shared resources—making it ideal for core FinTech services like DB handling, logging, and configuration.
 
 ---
 
+## 🔹 3. Factory Pattern
 
+### What is the Factory Pattern?
+
+The **Factory Pattern** provides a way to **create objects without exposing the instantiation logic** to the client. Instead of using `new` directly, the client calls a method (usually `getInstance()` or `create()`) which returns the appropriate subclass or implementation.
+
+---
+
+### Why Use Factory Pattern?
+
+- **Encapsulates object creation logic**
+- Promotes **loose coupling** between classes
+- Makes code **extensible and flexible**
+- Helps in managing **multiple implementations of a common interface**
+
+---
+
+### Where It's Used in Project?
+
+- Selecting **payment gateways** (e.g., Razorpay, Stripe, PayPal)
+- Choosing **loan evaluation strategies** (e.g., RiskBased, AutoApproved, Manual)
+- Generating **different types of financial reports** (e.g., Monthly, Annual, Summary)
 
