@@ -174,3 +174,21 @@ The **Factory Pattern** provides a way to **create objects without exposing the 
 - Choosing **loan evaluation strategies** (e.g., RiskBased, AutoApproved, Manual)
 - Generating **different types of financial reports** (e.g., Monthly, Annual, Summary)
 
+---
+
+
+### Example: Factory Pattern – Payment Gateway Integration
+
+#### 🔹 Step 1: Define Common Interface
+  PaymentGateway → common interface
+
+#### 🔹 Step 2: Implement Concrete Payment Providers
+  Eg. RazorpayGateway, StripeGateway, PayPalGateway → implementations
+
+#### 🔹 Step 3: Create the Factory Class
+  PaymentGatewayFactory → selects and returns the correct implementation based on input
+
+#### 🔹 Step 4: Use the Factory in Main Application
+  Easy to add new gateways later without changing the core business logic.
+
+Conclusion: The Factory Pattern simplifies payment provider integration. It enables dynamic selection of gateway logic and makes the code easier to maintain as new gateways (like PhonePe, Paytm) are added.
