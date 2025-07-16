@@ -2,9 +2,11 @@
 
 This project contains implementations and explanations of **commonly used design patterns** in Java. These patterns are crucial for building **robust**, **scalable**, and **maintainable** applications, especially in real-world domains like **FinTech, banking, and microservices**.
 
-  -   Builder Pattern
-  -   Singleton Pattern
-  -   Factory Pattern  
+### 📦 Included Patterns:
+- Builder Pattern  
+- Singleton Pattern  
+- Factory Pattern  
+- Prototype Pattern
 
 
 ## What Are Design Patterns? 
@@ -192,3 +194,32 @@ The **Factory Pattern** provides a way to **create objects without exposing the 
   Easy to add new gateways later without changing the core business logic.
 
 Conclusion: The Factory Pattern simplifies payment provider integration. It enables dynamic selection of gateway logic and makes the code easier to maintain as new gateways (like PhonePe, Paytm) are added.
+
+---
+
+## 🔹 4. Prototype Pattern (Creational)
+
+### 🔍 What is the Prototype Pattern?
+
+The **Prototype Pattern** allows you to **clone existing objects** instead of creating new ones from scratch. It’s useful when object creation is **costly**, or when similar objects need to be created with slight variations.
+
+---
+
+### Why Use Prototype Pattern?
+
+- Avoids expensive object creation  
+- Supports cloning objects with different configurations  
+- Helps in creating multiple similar objects quickly  
+- Ideal when object initialization involves I/O, DB, or complex config
+
+---
+
+### Where It’s Used in FinTech?
+
+- Cloning **loan document templates**
+- Duplicating **financial contracts**
+- Reusing **standard user onboarding forms**
+- Generating **pre-filled reports**
+
+---
+
