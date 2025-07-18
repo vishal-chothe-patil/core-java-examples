@@ -223,3 +223,27 @@ The **Prototype Pattern** allows you to **clone existing objects** instead of cr
 
 ---
 
+
+### Example: Cloning a Loan Document Template
+
+#### Step 1: Prototype Interface
+
+  Defines a clone() method that all prototype-capable classes must implement.
+
+  ```java
+  public interface DocumentPrototype {
+      DocumentPrototype clone();  // Clone method
+  }
+  ```
+####  Step 2: Concrete Prototype Class
+
+  Implements the clone() method to allow deep copying of a LoanDocument object.
+
+
+#### Step 3: Client Code to Use Prototype
+
+ Uses the clone() method to quickly create customized copies of loan documents for different customers.
+
+---
+###  Conclusion:
+The Prototype Pattern is especially useful when you need to generate multiple documents or objects with the same structure but different values — commonly seen in FinTech apps that manage forms, contracts, and batch operations.
