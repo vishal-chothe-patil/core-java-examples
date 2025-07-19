@@ -1,4 +1,4 @@
-# Core Java Fundamentals 🔥😀👨‍💻
+# Core Java Fundamentals 😀👨‍💻
 
 A comprehensive Core Java project showcasing fundamental concepts such as basic output programs, arithmetic operations using various data types, using user defined methods, user input handling, and object-oriented principles like class design and method overriding. 👨‍💻🎯
 
