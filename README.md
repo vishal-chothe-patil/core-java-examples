@@ -1,92 +1,77 @@
-# Core Java Fundamentals 😀👨‍💻
+# Core Java Fundamentals 😀📘👨‍💻
 
-A comprehensive Core Java project showcasing fundamental concepts such as basic output programs, arithmetic operations using various data types, using user defined methods, user input handling, and object-oriented principles like class design and method overriding. 👨‍💻🎯
+A **comprehensive Java learning project** showcasing **Core Java concepts** through real-world examples, mini console apps, and concept-driven programs. Ideal for beginners to intermediates who want to strengthen Java basics including syntax, data types, operators, conditionals, methods, and OOP principles. 👨‍💻🎯
 
-## ✅ What's Included:
+### 1. Basic Syntax Examples
+- `Hello, World!` program  
+- Understanding structure: `class`, `main()` method, and `System.out.println()`  
+- Helps build comfort with Java’s base syntax  
 
-✔️ **Basic Examples**: *(get started with Java syntax)*  
-  - Simple programs demonstrating output and programs like `"Hello and welcome!"` to help understand basic structure (class, main method, and output).
+---
 
-✔️ **Arithmetic Operations**: *(get to Learn how arithmetic works with different data types, methods in Java)*  
-  - Addition of Two Numbers, Subtraction, Multiplication, Division programs
-    - Using different data types: `int`, `long`, `float`, `double`, `short`
-  - Programs using methods: ✦ `With Return Type & With Parameters` ✦ `With Return Type & Without Parameters` ✦ `Without Return Type & With Parameters` ✦ `Without Return Type & Without Parameters`
-  - Module Operator and Ternary Operator with few examples (like EvenOdd, MaxTwoNumber, VotingEligibility, Leap year, NumberCheck).
-  - Each example includes: Variable declaration, Initialization, Arithmetic logic, Output statement displaying the result.
+###  2. Arithmetic Operations
+- Perform **Addition, Subtraction, Multiplication, Division, Modulo** with:
+  - `int`, `long`, `float`, `double`, `short`
+- Examples using **4 method types**:
+  - With Return Type & With Parameters  
+  - With Return Type & Without Parameters  
+  - Without Return Type & With Parameters  
+  - Without Return Type & Without Parameters
 
- ✔️ **Increment/Decrement Operators** 🔁
+---
 
-- Pre-increment (`++x`) & Post-increment (`x++`)  
-- Pre-decrement (`--x`) & Post-decrement (`x--`)  
-- Demonstrates differences in evaluation order  
-- Real-time examples to visualize how these affect variable values
+### 3. Increment / Decrement Operators
+- Pre-increment (`++x`) and Post-increment (`x++`)  
+- Pre-decrement (`--x`) and Post-decrement (`x--`)  
+- Examples to clarify evaluation order and behavior  
 
-✔️ **Relational Operators** 🔎
+---
 
-- Comparison between variables using:  
-    -  `<` , `>` , `<=` , `>=`  
-  - Programs to evaluate conditions and return Boolean values
-  - for control structures like `if`, `if-else ladder`, and `nested if.`
-- **Less Than (`<`)**  
-   - *Age Restriction*: Check if a user is too young to access specific content.  
-   - *Stock Monitoring*: Alert if inventory falls below a minimum threshold.  
-   - *Grading*: Determine if a score is below a passing grade.  
-   - *Deadline Check*: Verify if a project completion date is before the due date.  
-   - *Speed Violation*: Detect if a vehicle's speed is below the minimum limit for a highway.
-     
-- **Greater Than (`>`)**
-  - *Performance Monitoring*: Trigger an alert if CPU usage exceeds 80%  
-  - *Bank Balance Validation*: Check if a withdrawal amount exceeds the current balance  
-  - *Attendance Check*: Ensure participants in an event exceed a required number  
-  - *Scoring System*: Verify if a candidate's score surpasses a benchmark  
-  - *Temperature Control*: Activate cooling if room temperature exceeds a set point
-    
-- **Less Than or Equal To (`<=`)**
-  - *Discount Eligibility*: Offer discounts if total purchase amount is within a specific range  
-  - *Loan Eligibility*: Approve loans if the applicant's age is less than or equal to 60  
-  - *Queue Management*: Accept requests only if queue length is within limits  
-  - *Task Scheduling*: Assign tasks with deadlines on or before the current date  
-  - *Grade Assignment*: Assign "Pass" if a student's score is 40 or less
+### 4. Relational Operators
+- Operators: `<`, `>`, `<=`, `>=`  
+- Real-world conditional logic like:
+  - **Age checks**, **Stock levels**, **Loan eligibility**, **Grading system**, etc.
+- Covered via:
+  - `if`
+  - `if-else`
+  - `if-else-if`
+  - `nested if`
 
-- **Greater Than or Equal To (`>=`)**
-  - *Eligibility Criteria*: Verify if a student qualifies for a scholarship based on marks  
-  - *Stock Replenishment*: Trigger restocking if inventory is above reorder level  
-  - *Promotion Check*: Promote employees with tenure greater than or equal to five years  
-  - *Exam Cutoff*: Check if a candidate's score meets or exceeds the cutoff for selection  
-  - *Fitness Tracking*: Record activity if steps walked exceed or equal a daily goal
+---
 
+### 5. Equality Operators
+- **Equal to (`==`)**: e.g. Login validation, Score match  
+- **Not Equal to (`!=`)**: e.g. Role check, Format mismatch
 
-✔️  **Equality Operators (`==`, `!=`) Use Cases**  
+---
 
-- **Equal To (`==`)**  
-  - *Authentication*: Validate if entered username matches stored username.  
-  -  *Feature Toggle*: Enable features if a specific setting matches "true".  
-  - *Game Scoring*: Check if a player's score matches a winning target.  
-  - *Status Check*: Determine if a system is in the "ready" state.  
-  - *Configuration Validation*: Verify if the loaded configuration matches the expected setup.
-    
-- **Not Equal To (`!=`)**  
-  -  *Error Detection*: Trigger an alert if `fileFormat != supportedFormat`  
-  -  *User Privilege*: Restrict access if `userRole != "admin"`  
-  -  *Data Synchronization*: Detect mismatches if `datasetA != datasetB`  
-  -  *Device Status*: Notify if `deviceStatus != "online"`  
-  -  *Process Validation*: Skip processes if `inputValue != defaultValue`  
- 
-✔️ **String Concatenation Operators** 🧵➕
+### 6. String Concatenation
+- Combine strings using:
+  - `+` operator
+  - `+=` operator
+  - Mix with variables and numeric values
+- Examples:
+  - Greeting users dynamically  
+  - Printing composite data (name + score, etc.)
 
-- Combine and manipulate strings using:
-  - `+` operator to join strings  
-  - `+=` for appending  
-  - Mixing strings with numbers and variables
+---
 
+## Mini Java Console Projects 🎯 
 
-✔️ **Commercial Scheme System Project**: *(commercialscheme-portal)*  
-  - A basic Java console application to capture and display details, with Custom `Person` and `Address` classes with fields
+### 1. Commercial Scheme System (`commercialscheme-portal`)
+- Java console-based application  
+- Use of custom `Person` and `Address` classes  
+- Takes user input, stores data, and prints info  
+- Highlights: Class creation, object initialization, `Scanner`, OOP practices  
 
-✔️ **Product Review System Project** *(e-commerceProductReview)*
-  - A basic Java console application to simulate an e-commerce-style product review system, with Custom `Product`, `User`, and `Review` classes with fields  
- 
-  - Demonstrates the use of:
-    - `Scanner` class for taking user input  
-    - Overridden `toString()` methods for clear and meaningful object output  
-  - For understanding class relationships, object creation, user input handling, and simple usage in Java.
+---
+
+### 2. Product Review System (`e-commerceProductReview`)
+- Java app simulating product reviews  
+- Custom classes: `Product`, `User`, `Review`  
+- Takes review input from users  
+- Demonstrates:
+  - Object composition  
+  - Method overriding (`toString`)  
+  - Relationship between classes  
+  - Real-time input using `Scanner`
